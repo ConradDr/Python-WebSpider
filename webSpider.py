@@ -2,7 +2,7 @@
 
 import requests
 
-URL = "Change me to appropriate IP address"
+URL = "Change me to appropriate IP address -"
 urlList = []
 isFollowed = {}
 
