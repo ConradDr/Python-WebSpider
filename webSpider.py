@@ -2,7 +2,7 @@
 
 import requests
 
-URL = "Change me to appropriate IP address -"
+URL = "- Change me to appropriate IP address -"
 urlList = []
 isFollowed = {}
 
@@ -35,7 +35,7 @@ for URL in urlList:
 
         for line in page.text.split("\n"):
             if "http" in line:
-                if "192.168.55.101" in line:
+                if "- Change me to appropriate IP address -" in line:
                     if "\">" in line:
                         end = "\">"
                     else:
